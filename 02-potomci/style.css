@@ -35,3 +35,14 @@ CSS Selektory:
 :nth-child(3n+3)		každý 3. potomek
 
 */
+.ctverec:first-child {
+	background-color: blueviolet;
+}
+
+.ctverec:last-child {
+	background-color: red;
+}
+
+.ctverec:nth-child(5) {
+	background-color: blue;
+}

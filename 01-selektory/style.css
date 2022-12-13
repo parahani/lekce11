@@ -36,3 +36,51 @@ element[attr="val"]		element s attributem o určité hodnotě
 						^= na začátku
 						$= na konci
 */
+
+[href$=".pdf"]::before {
+	content: ' ';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: red;
+}
+
+.vnitrek p {
+	margin: 0;
+}
+
+.vnitrek p + p {
+	margin-top: 20px;
+}
+
+h2 ~ p {
+	background-color: blue;
+}
+
+[href$=".pdf"]::before {
+	content: ' ';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: red;
+}
+
+[href$=".pptx"]::before {
+	content: ' ';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: orange;
+}
+
+[href$=".xlsx"]::before {
+	content: ' ';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: green;
+}
