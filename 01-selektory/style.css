@@ -36,15 +36,3 @@ element[attr="val"]		element s attributem o určité hodnotě
 						^= na začátku
 						$= na konci
 */
-
-p {
-	color: blue;
-}
-
-[href$=".pdf"]::before {
-	content: ' ';
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	background-color: red;
-}
